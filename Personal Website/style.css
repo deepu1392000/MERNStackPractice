@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+body
+{    
+    background-color: #D3D3D3;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.left-pane
+{
+    /* height: 98vh; */
+    width: 32vw;
+    background-color: white;
+    float: left;
+    margin: 0.5% 0.25% 0.5% 0.75%;
+}
+.right-pane-1
+{
+    width: 64.5vw;
+    background-color: white;
+    float: right;
+    margin: 0.5% 0.75% 0.5% 0.25%;
+    padding: 1em;
+}
+.right-pane-2
+{
+    width: 64.5vw;
+    background-color: white;
+    float: right;
+    margin: 0.5% 0.75% 0.5% 0.25%;
+    padding: 1em;
+}
+.profile-pic
+{
+    position: relative;
+    height: 25.7vh;
+    background-image: url("Resources/profile-pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: left;
+}
+.profile-pic h3
+{
+    position: absolute;
+    margin-left: 1em;
+    bottom: 0;
+    /* color:white; */
+}
+.contact-me
+{
+    display: block;
+    margin-left: 1em;
+    /* height: 25%; */
+}
+.contact-me dl dt img
+{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.contact-me dl dt
+{
+    float: left;
+}
+.contact-me dl
+{
+    /* margin-left: 1em; */
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.contact-me dd a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.skills{
+    margin-left: 1em;
+}
+
+#skills-icon
+{
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    margin: auto;
+}
+
+#skills-head
+{
+    display: inline-block;
+    margin-left: 2rem;
+    clear: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* progress[value]::-webkit-progress-value
+{
+    background-color: lightgreen;
+} */
+.skill-progress
+{
+    height: 1.5rem;
+    vertical-align:auto;
+    text-align: center;
+    color:green;
+}
+.skill-progress:after
+{
+    content: attr(value) '%';
+    color: white;
+}
+.skills dl dt
+{
+    /* float: left; */
+    vertical-align: bottom;
+}
+.skills dl dd
+{
+    margin-inline-start: 0;
+}
+.skills dl
+{
+    /* margin-left: 1em; */
+    /* display: grid;
+    grid-template-columns: 10% 90%; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.languages{
+    margin-left: 1em;
+}
+#language-icon
+{
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    margin: auto;
+}
+
+#languages-head
+{
+    display: inline-block;
+    margin-left: 2rem;
+    clear: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.language-progress
+{
+    height: 1.5rem;
+    vertical-align:auto;
+    text-align: center;
+}
+.languages dl
+{
+    /* margin-left: 1em; */
+    /* display: grid;
+    grid-template-columns: 10% 90%; */
+    margin-top: 0;
+}
+.languages dl dd
+{
+    margin-inline-start: 0;
+}
+#experience-icon
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: auto;
+    display: inline-block;
+}
+#experience-head
+{
+    display: inline-block;
+    margin-left: 2rem;
+    clear: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.experiences h4
+{
+    margin-bottom: 0.25rem;
+}
+.company
+{
+    display: grid;
+    grid-template-columns: 2.5% 97.5%;
+    margin: 0;
+}
+.company dt img
+{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#education-icon
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: auto;
+    display: inline-block;
+}
+#education-head
+{
+    display: inline-block;
+    margin-left: 2rem;
+    clear: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}

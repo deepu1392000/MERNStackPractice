@@ -1,0 +1,142 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #EEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+i
+{
+    color: teal;
+}
+p
+{
+    font-size: 0.8rem;
+    color: #888;
+}
+h2
+{
+    font-weight: normal;
+    color: #888;
+}
+h3
+{
+    font-weight: normal;
+    color: #888;
+    font-size: 0.9rem;
+    margin-block: 10px;
+}
+.container
+{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin-inline: auto;
+    margin-block: 20px;
+}
+.left-column
+{
+    width: 35%;
+}
+.card
+{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+}
+.left-description
+{
+    margin-inline: 20px;
+}
+
+.username
+{
+    color: white;
+}
+.image-box
+{
+    position: relative;
+}
+.image-box img
+{
+    width: 100%;
+}
+.image-box h2
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+ul
+{
+    list-style: none;
+    margin-block: 20px;
+}
+li
+{
+    margin-top: 8px;
+}
+hr
+{
+    border: 0.5px solid #EEE;
+}
+.icon-text
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.date
+{
+    color: teal;
+}
+.badge
+{
+    background-color: teal;
+    color: white;
+    padding: 2px;
+    font-size: 0.6rem;
+    border-radius: 4px;
+}
+.progress-bar
+{
+    background-color: #ccc;
+    border-radius: 20px;
+    margin-block: 8px;
+}
+.progress-bar .progress
+{
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.5rem;
+    padding-block: 2px;
+}
+.skills
+{
+    margin-block: 10px;
+}
+.languages
+{
+    margin-block: 10px;
+}
+.right-column
+{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.worexperience, .education
+{
+    padding: 20px;
+}
+.subtext
+{
+    color: #212121;
+    margin-block: 10px;
+}
